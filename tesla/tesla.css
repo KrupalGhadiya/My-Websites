@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sticky{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: auto;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* border: 2px solid red; */
+}
+.main1{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    height: 80px;
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 80px;
+    width: 200px;
+    margin-left: 50px;
+    background-image: url(png-transparent-tesla-logo-tesla-motors-car-tesla-model-s-tesla-model-3-decal-angle-text-rectangle-thumbnail-removebg-preview.png); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu ul{
+    display: flex;
+    gap: 50px;
+}
+.menu ul li{
+    color: white;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+    margin-right: 50px;
+}
+.logo1{
+    height: 30px;
+    width: 30px;
+    background-image: url(icons8-question-mark-48.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+.logo2{
+    height: 27px;
+    width: 27px;
+    background-image: url(icons8-globe-64.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+.logo3{
+    height: 30px;
+    width: 30px;
+    background-image: url(user-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+}
+#a1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.mbtn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.btn{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+.main2{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m2-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m2-h1{
+    font-size: 60px;
+}
+#m2-h2{
+    font-size: 35px;
+    text-decoration-line: underline;
+}
+#m2-h3{
+    font-size: 20px;
+}
+.m2-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 400px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main3{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m3-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m3-h1{
+    font-size: 60px;
+}
+#m3-h2{
+    font-size: 35px;
+    text-decoration-line: underline;
+}
+#m3-h3{
+    font-size: 20px;
+}
+.m3-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 400px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main4{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m4-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m4-h1{
+    font-size: 60px;
+}
+#m4-h2{
+    font-size: 35px;
+}
+#m4-h3{
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.m4-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 380px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main5{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m5-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m5-h1{
+    font-size: 60px;
+}
+#m5-h2{
+    font-size: 35px;
+}
+#m5-h3{
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.m5-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 400px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main6{
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+    background-image: url(tesla-car6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main6 .m6-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 618px;
+    gap: 20px;
+    /* border: 5px solid red; */
+}
+.main6 .m6-btn .btn1{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0;
+    align-items: center;
+    background-color: rgb(46, 34, 34);
+}
+.main6 .m6-btn #btn1{
+    color: white;
+    text-decoration: none;
+}
+.main7{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m7-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m7-h1{
+    font-size: 60px;
+}
+#m7-h2{
+    font-size: 35px;
+    text-decoration-line: underline;
+}
+.m7-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 430px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main8{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m8-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m8-h1{
+    font-size: 60px;
+}
+#m8-h2{
+    font-size: 35px;
+}
+.m8-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 430px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main9{
+    height: 700px;
+    width: auto;
+    background-image: url(tesla-car9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m9-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m9-h1{
+    font-size: 60px;
+}
+.m9-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 470px;
+    gap: 20px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.btn2{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+}
+.main10{
+    height: 700px;
+    width: auto;
+    background-image: url(tesal-car10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m10-1{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+#m10-h1{
+    font-size: 60px;
+}
+.m10-btn{
+    display: flex;
+    justify-content:center;
+    margin-top: 470px;
+}
+.btn1{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+#btn1{
+    color: white;
+    text-decoration: none;
+}
+.main11{
+    /* display: flex;
+    justify-content: center; */
+    height: 650px;
+    width: auto;
+    /* border: 2px solid red; */
+}
+.content{
+    /* text-align: center;
+    height: 550px;
+    width: 550px;
+    text-align: center; */
+    /* border: 2px solid red;     */
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.ctn{   
+    margin-top: 40px;
+    /* border: 2px solid red; */
+}
+.menu2{
+    height: 100px;
+    width: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu2 ul{
+    display: flex;
+    gap: 30px;
+}
+.menu2 a{
+    text-decoration: none;
+    color: black;
+}
+.menu2 li{
+    list-style: none; 
+}
